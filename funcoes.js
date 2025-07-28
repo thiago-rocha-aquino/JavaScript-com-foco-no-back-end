@@ -13,8 +13,8 @@ return `O estudante: ${nome} tem notas: ${nota} e ${nota2}, e tem: ${idade} anos
 console.log(infoEstudantes("Thiago", 8, 9, 24));
 
 function calcularMedia(nota1, nota2, media) {
-   media = (nota1 + nota2) / 2;
-   console.log(`A média é: ${media}`);
+  // media = (nota1 + nota2) / 2;
+   return (nota1 + nota2) / 2;
 }   
 
-calcularMedia(8, 9);
+console.log(calcularMedia(8, 9));
