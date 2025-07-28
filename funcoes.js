@@ -18,3 +18,4 @@ function calcularMedia(nota1, nota2, media) {
 }   
 
 console.log(calcularMedia(8, 9));
+console.log(calcularMedia(7, 6));
