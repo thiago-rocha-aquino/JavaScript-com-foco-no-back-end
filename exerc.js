@@ -30,7 +30,8 @@ function maiorNumero(num1, num2, num3) {
         return num3;
     }
 } 
-console.log(maiorNumero(10, 9, 15));   
+console.log(maiorNumero(10, 9, 15));
+ 
 
 //Crie uma arrow function chamada calculaPotencia que receba dois parâmetros: a base e o expoente. A função deve calcular a potência da base elevada ao expoente e retornar o resultado.
 const calculaPotencia = (base, expoente) => Math.pow(base, expoente);// ou (base ** exponente)
