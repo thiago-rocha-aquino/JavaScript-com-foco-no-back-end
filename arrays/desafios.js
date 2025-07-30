@@ -55,4 +55,5 @@ console.log(matriz[1][2]);
 //Adicione um novo elemento (por exemplo,15) na terceira linha e segunda coluna da lista bidimensional matriz criada anteriormente.
 matriz[2].splice(1,0, 7.5)
 
-console.log(matriz);
+
+matriz.forEach(row => console.log(row));// outra forma de imprimir a matriz, usando o forEach para iterar sobre cada linha e imprimir.
