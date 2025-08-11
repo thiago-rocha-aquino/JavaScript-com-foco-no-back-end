@@ -23,11 +23,11 @@ executaOperacaoEmArray([1, 2, 3, 4], (num) => num * 2);
 // Caso contrário, se o número não estiver presente, o programa deve retornar "-1".
 
 numeros = [1,3,4,5]
-numero = 4;
+let numeroo = 4;
 posicao = -1;
 
 for(let i = 0; i<numeros.length; i++){
-    if(numeros[i] === numero){
+    if(numeros[i] === numeroo){
         posicao = i;
         break;
     }
@@ -36,3 +36,38 @@ for(let i = 0; i<numeros.length; i++){
 console.log(posicao);
 
 
+//4 - Você recebeu dois arrays de nomes contendo os alunos da Turma A e da Turma B.
+//Utilize o método concat() para unir os arrays das turmas A e B em um único array chamado todasAsTurmas.
+//Depois, utilize o método find() para buscar um aluno específico pelo nome no array todosAlunos.
+//Exiba no console uma mensagem informando o nome do aluno procurado; caso não exista na lista, retorne uma mensagem de aviso, por exemplo Aluno não encontrado.
+
+const nomesTurmaA = [
+  'João Silva',
+  'Maria Santos',
+  'Pedro Almeida'
+];
+
+const nomesTurmaB = [
+  'Carlos Oliveira',
+  'Ana Souza',
+  'Lucas Fernandes'
+];
+
+todasAsTurmas = nomesTurmaA.concat(nomesTurmaB);
+
+const alunos = todasAsTurmas.find(nome => nome === 'Clarinha'  );
+console.log(alunos? `Aluno encontrado: ${nome}` : "Aluno não encontrado");
+
+
+// Considere um array de números inteiros. const numeros = [6, 9, 12, 15, 18, 21];
+// Copiar código Utilize o método forEach() para multiplicar cada elemento do array por 3 e exibir no console o resultado de cada multiplicação.
+// Depois, utilize o método findIndex() para encontrar o índice do número 18 no array original.
+
+ const numeross = [6, 9, 12, 15, 18, 21];
+ const copiar = numeross.forEach((elemento =>{
+    const numeross = elemento * 3;
+    console.log(numeross)   
+ }
+ ));
+const indice = numeross.findIndex(indic => indic == 18);
+console.log(indice);
