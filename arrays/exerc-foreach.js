@@ -55,7 +55,7 @@ const nomesTurmaB = [
 
 todasAsTurmas = nomesTurmaA.concat(nomesTurmaB);
 
-const alunos = todasAsTurmas.find(nome => nome === 'Clarinha'  );
+const alunos = todasAsTurmas.find(nome => nome === 'Clarinha' );
 console.log(alunos? `Aluno encontrado: ${nome}` : "Aluno não encontrado");
 
 
@@ -64,10 +64,9 @@ console.log(alunos? `Aluno encontrado: ${nome}` : "Aluno não encontrado");
 // Depois, utilize o método findIndex() para encontrar o índice do número 18 no array original.
 
  const numeross = [6, 9, 12, 15, 18, 21];
- const copiar = numeross.forEach((elemento =>{
+ const copiar = numeross.forEach((elemento) =>{
     const numeross = elemento * 3;
     console.log(numeross)   
- }
- ));
+ });
 const indice = numeross.findIndex(indic => indic == 18);
 console.log(indice);
