@@ -15,5 +15,5 @@ console.log(estudante['cpf']);
 console.log(exibirEstudante(estudante, 'nome'));
 console.log(exibirEstudante(estudante, 'idade'));
 console.log(exibirEstudante(estudante, 'cidade'));
-console.log(exibirEstudante(estudante, 'profissao'));
-console.log(`os tres primeiros números do meu cpf são: ${exibirEstudante(estudante, 'cpf').substring(0,3)}`);
+console.log(exibirEstudante(estudante, 'profissao'));             
+console.log(`os tres primeiros números do meu cpf são: ${exibirEstudante(estudante, 'cpf').substring(0,3)}`); //primeiro define o index e depois o elemento index = 0 e quero ler 3 elementos a partir do index 0
